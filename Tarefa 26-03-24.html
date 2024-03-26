@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+</head>
+<body>
+   
+   
+    <form action="" method="post">
+        <fieldset> <!--Gera uma borda-->
+            <!--legend faz um titulo-->
+            <legend>Dados Pessoais</legend>
+
+            <label>Nome:</label>
+            <input type="text"      name="name"       id="name"        placeholder="Zeca Nivete"              required>
+            
+            <label>E-Mail:</label>
+            <input type="email"     name="email"      id="email"       placeholder="zeca@disney.com"          required>
+            
+            <label>Senha:</label>
+            <input type="password"  name="password"   id="password"    placeholder="Ex: regerin@hotmail.com"  required><br />
+            
+            <label>Sexo:</label>
+            <label>
+                <input type="radio"    name="RSexo"   id="Masculino" value="M"> Masculino
+                <input type="radio"    name="RSexo"   id="Feminino"  value="F"> Feminino
+            </label>
+
+        </fieldset> 
+
+        <fieldset>
+            <legend>Endereço</legend>
+
+            <label>CEP:</label>
+            <input type="text"      name="cep"          id="cep"            placeholder="11122-111"                   required>
+
+            <label>Logradouro:</label>
+            <input type="text"      name="Logradouro"   id="logradouro"     placeholder="Rua da Subida Inclinada"     required>
+
+            <label>Numero:</label>
+            <input type="text"      name="numero"       id="numero"         placeholder="27"                          required><br />
+
+            <label>Complemtento:</label>
+            <input type="text"      name="complemento"  id="complemento"    placeholder="Alameda das Aves"            >
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Financeiros</legend>
+
+            <label>Tipo:</label>
+            <label>
+                <input type="radio"    name="RNacionalidade"   id="Nacional"      value="N"> Nacional
+                <input type="radio"    name="RNacionalidade"   id="Internacional" value="IN"> Internacional
+            </label>
+
+            <label> Bandeira:</label>
+            <select                 name="state"      id="state">
+                <option value="MC">MasterCard</option>
+                <option value="VISA">Visa</option>
+                <option value="SUS">Cartão do SUS</option> 
+            </select> 
+
+            <label>Numero do Cartão:</label>
+            <input type="text"      name="cardNumber"       id="cardNumber"        placeholder="111112222333344445555"         required><br />
+
+            <label>Validade:</label>
+            <input type="month"      name="month"       id="month"        placeholder=""              required>
+
+
+            <input type="submit" value="Enviar"/> 
+            <input type="reset" value="Limpar"/>
+        </fieldset>
+
+        <!--
+            <label>:</label>
+            <input type="text"      name=""       id=""        placeholder=""              required>
+        -->
+        
+    </form>
+</body>
+</html>
