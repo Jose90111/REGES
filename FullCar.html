@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+</head>
+<body>
+   
+   
+    <form action="" method="post">
+           
+            <fieldset>
+                <legend>Tipo do Veiculo:</legend>
+                <input type="text"      name="cartype"        id="cartype"        required>
+            </fieldset>
+            
+                
+            <fieldset>
+                <legend>Categoria:</legend>
+                <select                 name="state"      id="state">
+                    <!--  <option value=""></option>  -->
+                    <option value="Others">Outros</option>
+                    <option value="Hatch">Hatch</option>
+                    <option value="SUV">SUV</option>
+                    <option value="Seda">Sedâ</option>
+                    <option value="Pickup">Picape</option>
+                    <option value="Utility">Utilitario</option>
+                    <option value="Perua">Perua</option>
+                    <option value="Minivan">MiniVan</option>
+                    <option value="Conversible">Conversivel</option>
+                </select>
+            </fieldset>   
+
+            
+            <fieldset>
+                <legend>Fabricante:</legend>
+                <select                 name="state"      id="state">
+                    <option value="Others">Outros</option>
+                    <option value="Fiat">Fiat</option>
+                    <option value="Ford">Ford</option>
+                    <option value="Chevrolet">Chevrolet</option>
+                    <option value="Volskwagen">Volskwagen</option>
+                    <option value="Citroen">Citroën</option>
+                    <option value="Renault">Renault</option>
+                    <option value="Kia">Kia</option>
+                </select>
+            </fieldset>    
+        
+
+            <fieldset>
+                <legend>Modelo:</legend>
+                <input type="text"         name="Model"         id="Model"                  required>
+            </fieldset> 
+                     
+
+            <fieldset>
+                <legend>Quilometragem:</legend>
+                <input type="text"         name="KM"            id="KM"                     required>            
+            </fieldset> 
+            
+            
+            <fieldset>
+                <legend>Preço:</legend>
+                <input type="text"         name="price"         id="price"                  required>            
+            </fieldset> 
+            
+            
+            <fieldset>
+                <legend>Placa:</legend>
+                <input type="text"         name="sign"          id="sign"                   required>            
+            </fieldset> 
+            
+            <fieldset>
+                <legend>Cambio:</legend>
+                <label>
+                    <input type="radio"    name="Cambio"        id="Manual"      value="M"> Manual
+                    <input type="radio"    name="Cambio"        id="Automatico"  value="Auto"> Automatico
+                </label>
+            </fieldset> 
+            
+
+            <fieldset>
+                <legend>Blindagem:</legend>
+                <label>
+                    <input type="radio"    name="Blindagem"     id="Sim"         value="S"> Sim
+                    <input type="radio"    name="Blindagem"     id="Nao"         value="N"> Não
+                </label>
+            </fieldset> 
+
+
+            <fieldset>
+                <legend>N° de Portas:</legend>
+                <input type="number"       name="Nportas"       id="Nportas"     min="1"  max="4"          required><br/>
+            </fieldset> 
+            
+
+            <fieldset>
+                <legend>Combustivel:</legend>
+                <label>
+                    <input type="radio"    name="Combustivel"   id="Etanol"      value="Etanol"> Etanol
+                    <input type="radio"    name="Combustivel"   id="Gasolina"    value="Gasolina"> Gasolina
+                    <input type="radio"    name="Combustivel"   id="Diesel"      value="Diesel"> Diesel
+                    <input type="radio"    name="Combustivel"   id="Flex"        value="Flex"> Flex
+                    <input type="radio"    name="Combustivel"   id="Outros"      value="Outros"> Outros
+                </label>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Foto:</legend>
+                <input type="file"         name="foto"          id="foto"                                 required>
+            </fieldset> 
+     
+
+            <fieldset>
+                <legend>Decrição Adicional</legend>
+                <textarea id="descricao" name="descricao" rows="4" cols="50" placeholder="Digite a descrição aqui..."></textarea>
+            </fieldset> 
+            
+        
+
+        
+
+        <!--
+            <label>:</label>        
+            <input type="text"      name=""       id=""        placeholder=""              required>
+        -->
+        
+    </form>
+</body>
+</html>
