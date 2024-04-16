@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(197, 197, 197);
+    margin: 0px;
+    
+}
+
+a{
+    color: rgb(0, 72, 255);
+    font-style: oblique;
+}
+
+ul{
+    color: rgb(0, 72, 255); 
+}
+
+#menu{
+    background-color: rgb(255, 106, 0);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.imgMenu figure img{
+    position: absolute;
+    height: 50px;
+    left: 10px;
+    top: 5px;
+}
+
+.textoMenu{
+    position: absolute;
+    font-family: Arial, sans-;
+    font-style: oblique;
+    left: 80px;
+    font-size: 30px;  
+}
+
+.imgLogo figure img{
+    height: 100px;
+    transform: translate(-34%, 40%);
+}
+
+
+
+#galeria{
+    position: absolute;
+}
+
+#galeria h1{
+    float: left;
+    font-family:  Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+
+
+}
+
+
+table td {
+    text-align: center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    font-size: 25px;
+    font-style: italic; 
+}
+
+table tbody td img {
+    
+    height: 100px;
+    width: 100px;
+}
+
+table tbody td a {
+    font-size: 15px;
+}
+
+#tabelaNome {
+    width : 200px;
+}
+
+#tabelaPreco {
+    width: 100px;;
+}

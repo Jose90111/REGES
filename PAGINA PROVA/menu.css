@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(197, 197, 197);
+    margin: 0px;
+    
+}
+
+a{
+    color: rgb(0, 72, 255);
+    font-style: oblique;
+}
+
+ul{
+    font-size: 25px;
+    color: rgb(0, 72, 255); 
+}
+
+h5{
+    padding-left: 30px;
+}
+
+h6{
+    padding-left: 50px;
+}
+
+h6 img{
+    height: 10px;
+}
+
+#menu{
+    background-color: rgb(255, 106, 0);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.imgLogo figure img{
+    height: 100px; 
+}
+
+
+
+#galeria{
+    position: absolute;
+}
+
+#galeria h1{
+    font-family:  Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+}
