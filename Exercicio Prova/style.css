@@ -1,0 +1,34 @@
+body{
+    margin: 0%;
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-color: black;
+}
+
+#txtPrincipal{
+    position: absolute;
+    color: white;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    left: 590px;
+    top : 100px;
+}
+
+#btnEntrar{
+    position: absolute;
+    top: 380px;
+    left: 670px;
+    width: 150px;
+    height: 30px;
+}
+
+table{
+    color: white;
+    position: absolute;
+    left: 1001px;
+}
+
+#imgStatus{
+    height: 10px;
+}

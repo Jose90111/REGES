@@ -1,0 +1,18 @@
+body{
+    background-image: url(img/bg2.jpeg);
+    background-size: cover;
+    background-color: black;
+  
+    color: white;
+}
+
+#Tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnVoltar{ 
+    position: absolute; 
+    left: 600px; 
+}
